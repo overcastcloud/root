@@ -44,4 +44,14 @@
   <project name="posix_ipc" />
   <project name="proliantutils" />
   <project name="stevedore" />
+
+  <!-- Contrail -->
+  <include name="contrail.xml" />
+
+  <!-- Build tools -->
+  <project name="build-tools" path="tools">
+    <linkfile src="debian" dest="debian" />
+    <linkfile src="Makefile" dest="Makefile" />
+  </project>
+
 </manifest>
