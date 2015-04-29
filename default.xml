@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="origin" fetch="."/>
+  <remote name="origin" fetch="." />
 
-        <default revision="refs/heads/master" remote="origin" sync-j="4"/>
+  <default revision="refs/heads/master" remote="origin" sync-j="4" />
 
-        <project name="python-overcast" path="python-overcast"/>
+  <!-- Overcast stuff -->
+  <project name="python-overcast" />
+
+  <!-- OpenStack stuff -->
+  <project name="python-keystoneclient" />
+  <project name="keystone" />
+
+  <project name="python-cinderclient" />
+  <project name="cinder" />
+
+  <project name="python-novaclient" />
+  <project name="nova" />
+
+  <project name="python-glanceclient" />
+  <project name="glance" />
+
+  <project name="python-ironicclient" />
+  <project name="ironic" />
+
+  <project name="python-swiftclient" />
+
+  <project name="tempest-lib" />
+  <project name="tempest" />
+
+  <project name="oslo.messaging" />
+  <project name="oslo.config" />
+  <project name="oslo.concurrency" />
+  <project name="oslo.context" />
+  <project name="oslo.db" />
+  <project name="oslo.log" />
+  <project name="keystonemiddleware" />
+
+  <!-- Misc dependencies -->
+  <project name="pbr" />
+  <project name="python-six" />
+  <project name="websockify" />
+  <project name="retrying" />
+  <project name="posix_ipc" />
+  <project name="proliantutils" />
+  <project name="stevedore" />
 </manifest>
