@@ -28,6 +28,8 @@
   <project name="tempest-lib" />
   <project name="tempest" />
 
+  <project name="horizon" />
+
   <project name="oslo.messaging" />
   <project name="oslo.config" />
   <project name="oslo.concurrency" />
