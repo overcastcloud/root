@@ -20,6 +20,9 @@
   <project name="python-glanceclient" />
   <project name="glance" />
 
+  <project name="python-neutronclient" />
+  <project name="neutron" />
+
   <project name="python-ironicclient" />
   <project name="ironic" />
 
