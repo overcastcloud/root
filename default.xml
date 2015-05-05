@@ -5,57 +5,57 @@
   <default revision="refs/heads/master" remote="origin" sync-j="4" />
 
   <!-- Overcast stuff -->
-  <project name="python-overcast" />
+  <project name="python-overcast"       path="overcast-monolith/python-overcast" />
 
   <!-- OpenStack stuff -->
-  <project name="python-keystoneclient" />
-  <project name="keystone" />
+  <project name="python-keystoneclient" path="overcast-monolith/python-keystoneclient" />
+  <project name="keystone"              path="overcast-monolith/keystone" />
 
-  <project name="python-cinderclient" />
-  <project name="cinder" />
+  <project name="python-cinderclient"   path="overcast-monolith/python-cinderclient" />
+  <project name="cinder"                path="overcast-monolith/cinder" />
 
-  <project name="python-novaclient" />
-  <project name="nova" />
+  <project name="python-novaclient"     path="overcast-monolith/python-novaclient" />
+  <project name="nova"                  path="overcast-monolith/nova" />
 
-  <project name="python-glanceclient" />
-  <project name="glance" />
+  <project name="python-glanceclient"   path="overcast-monolith/python-glanceclient" />
+  <project name="glance"                path="overcast-monolith/glance" />
 
-  <project name="python-neutronclient" />
-  <project name="neutron" />
+  <project name="python-neutronclient"  path="overcast-monolith/python-neutronclient" />
+  <project name="neutron"               path="overcast-monolith/neutron" />
 
-  <project name="python-ironicclient" />
-  <project name="ironic" />
+  <project name="python-ironicclient"   path="overcast-monolith/python-ironicclient" />
+  <project name="ironic"                path="overcast-monolith/ironic" />
 
-  <project name="python-swiftclient" />
+  <project name="python-swiftclient"    path="overcast-monolith/python-swiftclient" />
 
-  <project name="tempest-lib" />
-  <project name="tempest" />
+  <project name="tempest-lib"           path="overcast-monolith/tempest-lib" />
+  <project name="tempest"               path="overcast-monolith/tempest" />
 
-  <project name="horizon" />
+  <project name="horizon"               path="overcast-monolith/horizon" />
 
-  <project name="oslo.messaging" />
-  <project name="oslo.config" />
-  <project name="oslo.concurrency" />
-  <project name="oslo.context" />
-  <project name="oslo.db" />
-  <project name="oslo.log" />
-  <project name="keystonemiddleware" />
+  <project name="oslo.messaging"        path="overcast-monolith/oslo.messaging" />
+  <project name="oslo.config"           path="overcast-monolith/oslo.config" />
+  <project name="oslo.concurrency"      path="overcast-monolith/oslo.concurrency" />
+  <project name="oslo.context"          path="overcast-monolith/oslo.context" />
+  <project name="oslo.db"               path="overcast-monolith/oslo.db" />
+  <project name="oslo.log"              path="overcast-monolith/oslo.log" />
+  <project name="keystonemiddleware"    path="overcast-monolith/keystonemiddleware" />
 
   <!-- Misc dependencies -->
-  <project name="pbr" />
-  <project name="python-six" />
-  <project name="websockify" />
-  <project name="retrying" />
-  <project name="posix_ipc" />
-  <project name="proliantutils" />
-  <project name="stevedore" />
+  <project name="pbr"                   path="overcast-monolith/pbr" />
+  <project name="python-six"            path="overcast-monolith/python-six" />
+  <project name="websockify"            path="overcast-monolith/websockify" />
+  <project name="retrying"              path="overcast-monolith/retrying" />
+  <project name="posix_ipc"             path="overcast-monolith/posix_ipc" />
+  <project name="proliantutils"         path="overcast-monolith/proliantutils" />
+  <project name="stevedore"             path="overcast-monolith/stevedore" />
 
   <!-- Contrail -->
   <include name="contrail.xml" />
 
   <!-- Build tools -->
   <project name="build-tools" path="tools">
-    <linkfile src="debian" dest="debian" />
+    <linkfile src="debian" dest="overcast-monolith/debian" />
     <linkfile src="Makefile" dest="Makefile" />
   </project>
 
