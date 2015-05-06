@@ -51,8 +51,12 @@
   <project name="proliantutils"               path="overcast-monolith/proliantutils" />
   <project name="stevedore"                   path="overcast-monolith/stevedore" />
 
+  <!-- libipfix -->
+  <project name="libipfix" />
+
   <!-- Contrail -->
   <include name="contrail.xml" />
+
 
   <!-- Build tools -->
   <project name="build-tools" path="tools">
