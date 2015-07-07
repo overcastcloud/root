@@ -51,6 +51,28 @@
   <project name="proliantutils"               path="overcast-python-monolith/proliantutils" />
   <project name="stevedore"                   path="overcast-python-monolith/stevedore" />
 
+  <!-- Javacsript disguised as Python modules -->
+  <project name="xstatic-angular"             path="overcast-python-monolith/xstatic-angular" />
+  <project name="xstatic-angular-bootstrap"   path="overcast-python-monolith/xstatic-angular-bootstrap" />
+  <project name="xstatic-angular-lrdragndrop" path="overcast-python-monolith/xstatic-angular-lrdragndrop" />
+  <project name="xstatic-angular-smart-table" path="overcast-python-monolith/xstatic-angular-smart-table" />
+  <project name="xstatic-bootstrap-datepicker" path="overcast-python-monolith/xstatic-bootstrap-datepicker" />
+  <project name="xstatic-bootstrap-scss"      path="overcast-python-monolith/xstatic-bootstrap-scss" />
+  <project name="xstatic-d3"                  path="overcast-python-monolith/xstatic-d3" />
+  <project name="xstatic-hogan"               path="overcast-python-monolith/xstatic-hogan" />
+  <project name="xstatic-font-awesome"        path="overcast-python-monolith/xstatic-font-awesome" />
+  <project name="xstatic-jasmine"             path="overcast-python-monolith/xstatic-jasmine" />
+  <project name="xstatic-jquery-migrate"      path="overcast-python-monolith/xstatic-jquery-migrate" />
+  <project name="xstatic-jquery.quicksearch"  path="overcast-python-monolith/xstatic-jquery.quicksearch" />
+  <project name="xstatic-jquery.tablesorter"  path="overcast-python-monolith/xstatic-jquery.tablesorter" />
+  <project name="xstatic-jquery-ui"           path="overcast-python-monolith/xstatic-jquery-ui" />
+  <project name="xstatic-jsencrypt"           path="overcast-python-monolith/xstatic-jsencrypt" />
+  <project name="xstatic-magic-search"        path="overcast-python-monolith/xstatic-magic-search" />
+  <project name="xstatic-qunit"               path="overcast-python-monolith/xstatic-qunit" />
+  <project name="xstatic-rickshaw"            path="overcast-python-monolith/xstatic-rickshaw" />
+  <project name="xstatic-spin"                path="overcast-python-monolith/xstatic-spin" />
+  <project name="XStatic-termjs"              path="overcast-python-monolith/xstatic-term.js" />
+
   <!-- libipfix -->
   <project name="libipfix" />
 
