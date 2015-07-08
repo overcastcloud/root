@@ -50,6 +50,13 @@
   <project name="posix_ipc"                   path="overcast-python-monolith/posix_ipc" />
   <project name="proliantutils"               path="overcast-python-monolith/proliantutils" />
   <project name="stevedore"                   path="overcast-python-monolith/stevedore" />
+  <project name="aioeventlet"                 path="overcast-python-monolith/aioeventlet" />
+  <project name="trollius"                    path="overcast-python-monolith/trollius" />
+  <project name="rtslib-fb"                   path="overcast-python-monolith/rtslib-fb" />
+  <project name="django-compressor"           path="overcast-python-monolith/django-compressor" />
+  <project name="django_openstack_auth"       path="overcast-python-monolith/django-openstack-auth" />
+  <project name="cryptography"                path="overcast-python-monolith/cryptography" />
+  <project name="msgpack-python"              path="overcast-python-monolith/msgpack-python" />
 
   <!-- Javacsript disguised as Python modules -->
   <project name="xstatic-angular"             path="overcast-python-monolith/xstatic-angular" />
