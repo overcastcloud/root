@@ -50,6 +50,7 @@
   <project name="oslo.service"                path="overcast-python-monolith/oslo.service" />
   <project name="oslo.utils"                  path="overcast-python-monolith/oslo.utils" />
   <project name="oslo.versionedobjects"       path="overcast-python-monolith/oslo.versionedobjects" />
+  <project name="oslo.vmware"                 path="overcast-python-monolith/oslo.vmware" />
   <project name="keystonemiddleware"          path="overcast-python-monolith/keystonemiddleware" />
   <project name="osprofiler"                  path="overcast-python-monolith/osprofiler" />
   <project name="glance_store"                path="overcast-python-monolith/glance_store" />
