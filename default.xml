@@ -85,6 +85,7 @@
   <project name="pathlib"                     path="overcast-python-monolith/pathlib" />
   <project name="pysaml2"                     path="overcast-python-monolith/pysaml2" />
   <project name="monotonic"                   path="overcast-python-monolith/monotonic" />
+  <project name="wrapt"                       path="overcast-python-monolith/wrapt" />
 
   <!-- Javacsript disguised as Python modules -->
   <project name="xstatic-angular"             path="overcast-python-monolith/xstatic-angular" />
