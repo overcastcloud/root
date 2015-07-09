@@ -53,6 +53,9 @@
   <project name="keystonemiddleware"          path="overcast-python-monolith/keystonemiddleware" />
   <project name="osprofiler"                  path="overcast-python-monolith/osprofiler" />
   <project name="glance_store"                path="overcast-python-monolith/glance_store" />
+  <project name="debtcollector"               path="overcast-python-monolith/debtcollector" />
+  <project name="automaton"                   path="overcast-python-monolith/automaton" />
+  <project name="os-brick"                    path="overcast-python-monolith/os-brick" />
 
   <!-- Misc dependencies -->
   <project name="pbr"                         path="overcast-python-monolith/pbr" />
@@ -78,6 +81,10 @@
   <project name="idna"                        path="overcast-python-monolith/idna" />
   <project name="django-appconf"              path="overcast-python-monolith/django-appconf" />
   <project name="suds-jurko"                  path="overcast-python-monolith/suds-jurko" />
+  <project name="pyopenssl"                   path="overcast-python-monolith/pyopenssl" />
+  <project name="pathlib"                     path="overcast-python-monolith/pathlib" />
+  <project name="pysaml2"                     path="overcast-python-monolith/pysaml2" />
+  <project name="monotonic"                   path="overcast-python-monolith/monotonic" />
 
   <!-- Javacsript disguised as Python modules -->
   <project name="xstatic-angular"             path="overcast-python-monolith/xstatic-angular" />
