@@ -34,13 +34,25 @@
 
   <project name="horizon"                     path="overcast-python-monolith/horizon" />
 
+  <project name="python-saharaclient"         path="overcast-python-monolith/python-sahaclient" />
+  <project name="python-barbicanclient"       path="overcast-python-monolith/python-barbicanclient" />
   <project name="oslo.messaging"              path="overcast-python-monolith/oslo.messaging" />
   <project name="oslo.config"                 path="overcast-python-monolith/oslo.config" />
   <project name="oslo.concurrency"            path="overcast-python-monolith/oslo.concurrency" />
   <project name="oslo.context"                path="overcast-python-monolith/oslo.context" />
   <project name="oslo.db"                     path="overcast-python-monolith/oslo.db" />
   <project name="oslo.log"                    path="overcast-python-monolith/oslo.log" />
+  <project name="oslo.i18n"                   path="overcast-python-monolith/oslo.i18n" />
+  <project name="oslo.policy"                 path="overcast-python-monolith/oslo.policy" />
+  <project name="oslo.middleware"             path="overcast-python-monolith/oslo.middleware" />
+  <project name="oslo.serialization"          path="overcast-python-monolith/oslo.serialization" />
+  <project name="oslo.reports"                path="overcast-python-monolith/oslo.reports" />
+  <project name="oslo.service"                path="overcast-python-monolith/oslo.service" />
+  <project name="oslo.utils"                  path="overcast-python-monolith/oslo.utils" />
+  <project name="oslo.versionedobjects"       path="overcast-python-monolith/oslo.versionedobjects" />
   <project name="keystonemiddleware"          path="overcast-python-monolith/keystonemiddleware" />
+  <project name="osprofiler"                  path="overcast-python-monolith/osprofiler" />
+  <project name="glance_store"                path="overcast-python-monolith/glance_store" />
 
   <!-- Misc dependencies -->
   <project name="pbr"                         path="overcast-python-monolith/pbr" />
@@ -57,6 +69,15 @@
   <project name="django_openstack_auth"       path="overcast-python-monolith/django-openstack-auth" />
   <project name="cryptography"                path="overcast-python-monolith/cryptography" />
   <project name="msgpack-python"              path="overcast-python-monolith/msgpack-python" />
+  <project name="pint"                        path="overcast-python-monolith/pint" />
+  <project name="django-pyscss"               path="overcast-python-monolith/django-pyscss" />
+  <project name="xstatic"                     path="overcast-python-monolith/xstatic" />
+  <project name="rfc3986"                     path="overcast-python-monolith/rfc3986" />
+  <project name="python-semanticversion"      path="overcast-python-monolith/python-semanticversion" />
+  <project name="ipaddress"                   path="overcast-python-monolith/ipaddress" />
+  <project name="idna"                        path="overcast-python-monolith/idna" />
+  <project name="django-appconf"              path="overcast-python-monolith/django-appconf" />
+  <project name="suds-jurko"                  path="overcast-python-monolith/suds-jurko" />
 
   <!-- Javacsript disguised as Python modules -->
   <project name="xstatic-angular"             path="overcast-python-monolith/xstatic-angular" />
@@ -69,6 +90,7 @@
   <project name="xstatic-hogan"               path="overcast-python-monolith/xstatic-hogan" />
   <project name="xstatic-font-awesome"        path="overcast-python-monolith/xstatic-font-awesome" />
   <project name="xstatic-jasmine"             path="overcast-python-monolith/xstatic-jasmine" />
+  <project name="xstatic-jquery"              path="overcast-python-monolith/xstatic-jquery" />
   <project name="xstatic-jquery-migrate"      path="overcast-python-monolith/xstatic-jquery-migrate" />
   <project name="xstatic-jquery.quicksearch"  path="overcast-python-monolith/xstatic-jquery.quicksearch" />
   <project name="xstatic-jquery.tablesorter"  path="overcast-python-monolith/xstatic-jquery.tablesorter" />
